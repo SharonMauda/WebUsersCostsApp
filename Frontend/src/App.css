@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  background-color: #c0d4eb1a;
+  padding-top: 10px;
+}
+
+.header {
+  font-size: 42pt;
+  margin: 0;
+  background-color: #c0d4eb9d;
+  display: inline-block;
+  padding: 5px 20px 10px 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.header img {
+  margin-left: 6px;
+}
+
+
+.container {
+  text-align: right;
+  margin: 40px 80px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+}
+
+.container div {
+  background-color: #dddddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+form {
+  display: grid;
+  justify-items: start;
+  grid-row-gap: 2px;
+  margin-right: 5px;
+}
+
+form label {
+  font-size: large;
+  padding: 2px;
+  font-weight: bold;
+}
+
+form input, form select {
+  border: 1px solid grey;
+  padding: 7px 6px;
+  border-radius: 3px;
+}
+
+form input[type="submit"] {
+  padding: 8px 10px;
+  margin: 8px 0;
+  background-color: white;
+  border: 2px solid #1f3991;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #1f3991;
+  color: white;
+  transition: ease-in 0.1s;
+}
+
+h2 {
+  margin: 2px 5px;
+  font-size: 22pt;
+  padding: 10px 0;
+  color: #161616;
+  text-decoration: underline;
+}
+
+td, th {
+  border: 1px solid #777777;
+  text-align: right;
+  padding: 8px;
+}
+
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
+
+.error, .success, .loading {
+  margin: 2px 5px;
+  font-weight: bold;
+}
